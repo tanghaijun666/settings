@@ -1,0 +1,41 @@
+{
+    
+
+    "code-runner.runInTerminal": false,
+"code-runner.executorMap": {
+    "python": "set PYTHONIOENCODING=utf8 && python",
+    "java": "cd $dir && javac -encoding utf8 $fileName && java -Dfile.encoding=UTF-8 $fileNameWithoutExt",
+},
+
+"terminal.integrated.profiles.windows": {
+    "gitBash": {		//这里的名称开头若是大写不能有空格(如：GitBash)
+        "path": "D:\\software\\Git\\bin\\bash.exe", //此处是git本地安装路径
+    }
+},
+//设置默认
+//"terminal.integrated.defaultProfile.windows": "gitBash",
+
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.defaultInterpreterPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe",
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 18,
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredExtensions": [
+    
+    ],
+    "git.path": "D:/software/Git/bin/git.exe",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+ 
+
+}
